@@ -4,8 +4,8 @@ Convierte la nomenclatura tipo string de Catastro (ES) del campo CONSTRU a valor
 # De dónde sale
 En el documento de referencia de Catastro España (tro.hacienda.gob.es/ayuda/manual_descriptivo_shapefile.pdf) se especifica la Nomenclatura de Subparcelas (pág. 13:
 
-- ``4 ANEXO I:``
-- ``4.1 NOMENCLATURA DE SUBPARCELAS``
+``4 ANEXO I:``
+``4.1 NOMENCLATURA DE SUBPARCELAS``
 - ``-I, -II ....... Volúmenes bajo rasante (1, 2 alturas)``
 - `` I, II ........ Volúmenes sobre rasante (1, 2 alturas)``
 - `` B ............. Balcón``
@@ -48,7 +48,7 @@ móvil). Se utilizará este código particularmente para los puntos de amarre
 de puertos deportivos. Un muelle se codificará con el código genérico
 ZPAV.``
 -  ``DARSENA.......... Dársena, aguas resguardadas artificialmente por un puerto.``
-- ``Para codificar un atributo de subparcela que esté compuesto por varios elementos de la nomenclatura
+``Para codificar un atributo de subparcela que esté compuesto por varios elementos de la nomenclatura
 anterior, se hará uniendo estos códigos, en sentido ascendente, con el signo (+).
 Ejemplo: -II+IV+TZA``
 
