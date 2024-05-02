@@ -4,54 +4,55 @@ Convierte la nomenclatura tipo string de Catastro (ES) del campo CONSTRU a valor
 
 # De dónde sale
 En el documento de referencia de Catastro España (tro.hacienda.gob.es/ayuda/manual_descriptivo_shapefile.pdf) se especifica la Nomenclatura de Subparcelas (pág. 13:
-
-``4 ANEXO I:``
-``4.1 NOMENCLATURA DE SUBPARCELAS``
-- ``-I, -II ....... Volúmenes bajo rasante (1, 2 alturas)``
-- `` I, II ........ Volúmenes sobre rasante (1, 2 alturas)``
-- `` B ............. Balcón``
-- `` T ............. Tribuna (balcón techado)``
-- `` TZA ............. Terraza``
-- `` POR ............. Porche``
-- `` SOP ............. Soportal``
-- `` PJE ............. Pasaje``
-- `` MAR ............. Marquesina``
-- `` P ............. Patio``
-- `` CO ............. Cobertizo``
-- `` EPT ............. Entreplanta``
-- `` SS ............. Semisótano``
-- `` ALT ............. Altillo``
-- `` PI ............. Piscina``
-- `` TEN ............. Pista de Tenis``
-- `` ETQ ............. Estanque``
-- `` SILO ............. Silo``
-- `` SUELO ............. Suelo vacante, sin construir. También se puede utilizar el sinónimo TERRENY``
-- `` PRG ............. Pérgola``
-- `` DEP ............. Depósito``
-- `` ESC ............. Escalera``
-- `` TRF ............. Transformador``
-- `` JD ............. Jardín``
-- ``YJD ………. Jardín que se valora``
-- `` FUT ............. Campo de Fútbol``
-- `` VOL ............. Voladizo``
-- `` ZD ............. Zona Deportiva``
-- `` RUINA ............. Ruinas``
-- `` CONS ............. En construcción``
-- `` PRESA ............. Cuerpo de presa en embalses``
-- `` ZBE ............. Balsas y estanques que se valoran``
-- `` ZPAV ............. Obras de urbanización interior``
-- `` GOLF ............. Campo de GOLF``
-- `` CAMPING.......... Camping``
-- `` TERRENY…….. Sinónimo de SUELO``
-- `` HORREO……… Hórreo, panera, cabazo``
-- `` PTLAN ............. Pantalán (embarcadero de pequeño porte, soportado por pilotes y a veces
+```
+4 ANEXO I:
+4.1 NOMENCLATURA DE SUBPARCELAS
+- -I, -II ....... Volúmenes bajo rasante (1, 2 alturas)
+- I, II ........ Volúmenes sobre rasante (1, 2 alturas)
+- B ............. Balcón
+- T ............. Tribuna (balcón techado)
+- TZA ............. Terraza
+- POR ............. Porche
+- SOP ............. Soportal
+- PJE ............. Pasaje
+- MAR ............. Marquesina
+- P ............. Patio
+- CO ............. Cobertizo
+- EPT ............. Entreplanta
+- SS ............. Semisótano
+- ALT ............. Altillo
+- PI ............. Piscina
+- TEN ............. Pista de Tenis
+- ETQ ............. Estanque
+- SILO ............. Silo
+- SUELO ............. Suelo vacante, sin construir. También se puede utilizar el sinónimo TERRENY
+- PRG ............. Pérgola
+- DEP ............. Depósito
+- ESC ............. Escalera
+- TRF ............. Transformador
+- JD ............. Jardín
+- YJD ………. Jardín que se valora
+- FUT ............. Campo de Fútbol
+- VOL ............. Voladizo
+- ZD ............. Zona Deportiva
+- RUINA ............. Ruinas
+- CONS ............. En construcción
+- PRESA ............. Cuerpo de presa en embalses
+- ZBE ............. Balsas y estanques que se valoran
+- ZPAV ............. Obras de urbanización interior
+- GOLF ............. Campo de GOLF
+- CAMPING.......... Camping
+- TERRENY…….. Sinónimo de SUELO
+- HORREO……… Hórreo, panera, cabazo
+- PTLAN ............. Pantalán (embarcadero de pequeño porte, soportado por pilotes y a veces
 móvil). Se utilizará este código particularmente para los puntos de amarre
 de puertos deportivos. Un muelle se codificará con el código genérico
-ZPAV.``
--  ``DARSENA.......... Dársena, aguas resguardadas artificialmente por un puerto.``
-``Para codificar un atributo de subparcela que esté compuesto por varios elementos de la nomenclatura
+ZPAV.
+- DARSENA.......... Dársena, aguas resguardadas artificialmente por un puerto.
+Para codificar un atributo de subparcela que esté compuesto por varios elementos de la nomenclatura
 anterior, se hará uniendo estos códigos, en sentido ascendente, con el signo (+).
-Ejemplo: -II+IV+TZA``
+Ejemplo: -II+IV+TZA
+```
 
  # Cómo usarlo
 El uso de este script está pensado para ArcGIS Pro, aunque podría aplicarse en otras soluciones de software (feel free to contribute):
